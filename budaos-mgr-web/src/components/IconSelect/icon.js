@@ -1,0 +1,1430 @@
+/*
+
+   "fa-glass","fa-th-large","fa-arrow-right","fa-arrow-up","fa-arrow-down","fa-mail-forward","fa-share",
+  "fa-expand","fa-compress","fa-plus","fa-minus","fa-asterisk","fa-th","fa-exclamation-circle",
+  "fa-gift","fa-leaf","fa-fire","fa-eye","fa-eye-slash","fa-warning","fa-exclamation-triangle","fa-plane",
+  "fa-calendar","fa-th-list","fa-random","fa-comment","fa-magnet","fa-chevron-up","fa-chevron-down","fa-retweet",
+  "fa-shopping-cart","fa-folder","fa-folder-open","fa-arrows-v","fa-check","fa-arrows-h","fa-bar-chart-o",
+  "fa-bar-chart","fa-twitter-square","fa-facebook-square","fa-camera-retro","fa-key","fa-gears","fa-cogs",
+  "fa-comments",
+   "fa-remove",
+  "fa-thumbs-o-up",
+  "fa-thumbs-o-down",
+  "fa-star-half",
+  "fa-heart-o",
+  "fa-sign-out",
+  "fa-linkedin-square",
+  "fa-thumb-tack",
+  "fa-external-link",
+  "fa-sign-in",
+  "fa-trophy",
+   "fa-close",
+  "fa-github-square",
+  "fa-upload",
+  "fa-lemon-o",
+  "fa-phone",
+  "fa-square-o",
+  "fa-bookmark-o",
+  "fa-phone-square",
+  "fa-twitter",
+  "fa-facebook",
+  "fa-github",
+   "fa-times",
+  "fa-unlock",
+  "fa-credit-card",
+  "fa-rss",
+  "fa-hdd-o",
+  "fa-bullhorn",
+  "fa-bell",
+  "fa-certificate",
+  "fa-hand-o-right",
+  "fa-hand-o-left",
+  "fa-hand-o-up",
+   "fa-search-plus",
+  "fa-hand-o-down",
+  "fa-arrow-circle-left",
+  "fa-arrow-circle-right",
+  "fa-arrow-circle-up",
+  "fa-arrow-circle-down",
+  "fa-globe",
+  "fa-wrench",
+  "fa-tasks",
+  "fa-filter",
+  "fa-briefcase",
+   "fa-search-minus",
+  "fa-arrows-alt",
+  "fa-group",
+  "fa-users",
+  "fa-chain",
+  "fa-link",
+  "fa-cloud",
+  "fa-flask",
+  "fa-cut",
+  "fa-scissors",
+  "fa-copy",
+   "fa-power-off",
+  "fa-files-o",
+  "fa-paperclip",
+  "fa-save",
+  "fa-floppy-o",
+  "fa-square",
+  "fa-navicon",
+  "fa-reorder",
+  "fa-bars",
+  "fa-list-ul",
+  "fa-list-ol",
+    "fa-music",
+   "fa-signal",
+  "fa-strikethrough",
+  "fa-underline",
+  "fa-table",
+  "fa-magic",
+  "fa-truck",
+  "fa-pinterest",
+  "fa-pinterest-square",
+  "fa-google-plus-square",
+  "fa-google-plus",
+  "fa-money",
+   "fa-gear",
+  "fa-caret-down",
+  "fa-caret-up",
+  "fa-caret-left",
+  "fa-caret-right",
+  "fa-columns",
+  "fa-unsorted",
+  "fa-sort",
+  "fa-sort-down",
+  "fa-sort-desc",
+  "fa-sort-up",
+   "fa-cog",
+  "fa-sort-asc",
+  "fa-envelope",
+  "fa-linkedin",
+  "fa-rotate-left",
+  "fa-undo",
+  "fa-legal",
+  "fa-gavel",
+  "fa-dashboard",
+  "fa-tachometer",
+  "fa-comment-o",
+   "fa-trash-o",
+  "fa-comments-o",
+  "fa-flash",
+  "fa-bolt",
+  "fa-sitemap",
+  "fa-umbrella",
+  "fa-paste",
+  "fa-clipboard",
+  "fa-lightbulb-o",
+  "fa-exchange",
+  "fa-cloud-download",
+   "fa-home",
+  "fa-cloud-upload",
+  "fa-user-md",
+  "fa-stethoscope",
+  "fa-suitcase",
+  "fa-bell-o",
+  "fa-coffee",
+  "fa-cutlery",
+  "fa-file-text-o",
+  "fa-building-o",
+  "fa-hospital-o",
+   "fa-file-o",
+  "fa-ambulance",
+  "fa-medkit",
+  "fa-fighter-jet",
+  "fa-beer",
+  "fa-h-square",
+  "fa-plus-square",
+  "fa-angle-double-left",
+  "fa-angle-double-right",
+  "fa-angle-double-up",
+  "fa-angle-double-down",
+   "fa-clock-o",
+  "fa-angle-left",
+  "fa-angle-right",
+  "fa-angle-up",
+  "fa-angle-down",
+  "fa-desktop",
+  "fa-laptop",
+  "fa-tablet",
+  "fa-mobile-phone",
+  "fa-mobile",
+  "fa-circle-o",
+   "fa-road",
+  "fa-quote-left",
+  "fa-quote-right",
+  "fa-spinner",
+  "fa-circle",
+  "fa-mail-reply",
+  "fa-reply",
+  "fa-github-alt",
+  "fa-folder-o",
+  "fa-folder-open-o",
+  "fa-smile-o",
+   "fa-download",
+  "fa-frown-o",
+  "fa-meh-o",
+  "fa-gamepad",
+  "fa-keyboard-o",
+  "fa-flag-o",
+  "fa-flag-checkered",
+  "fa-terminal",
+  "fa-code",
+  "fa-mail-reply-all",
+  "fa-reply-all",
+   "fa-arrow-circle-o-down",
+  "fa-star-half-empty",
+  "fa-star-half-full",
+  "fa-star-half-o",
+  "fa-location-arrow",
+  "fa-crop",
+  "fa-code-fork",
+  "fa-unlink",
+  "fa-chain-broken",
+  "fa-question",
+  "fa-info",
+    "fa-search",
+   "fa-arrow-circle-o-up",
+  "fa-exclamation",
+  "fa-superscript",
+  "fa-subscript",
+  "fa-eraser",
+  "fa-puzzle-piece",
+  "fa-microphone",
+  "fa-microphone-slash",
+  "fa-shield",
+  "fa-calendar-o",
+  "fa-fire-extinguisher",
+   "fa-inbox",
+  "fa-rocket",
+  "fa-maxcdn",
+  "fa-chevron-circle-left",
+  "fa-chevron-circle-right",
+  "fa-chevron-circle-up",
+  "fa-chevron-circle-down",
+  "fa-html",
+  "fa-css",
+  "fa-anchor",
+  "fa-unlock-alt",
+   "fa-play-circle-o",
+  "fa-bullseye",
+  "fa-ellipsis-h",
+  "fa-ellipsis-v",
+  "fa-rss-square",
+  "fa-play-circle",
+  "fa-ticket",
+  "fa-minus-square",
+  "fa-minus-square-o",
+  "fa-level-up",
+  "fa-level-down",
+   "fa-rotate-right",
+  "fa-check-square",
+  "fa-pencil-square",
+  "fa-external-link-square",
+  "fa-share-square",
+  "fa-compass",
+  "fa-toggle-down",
+  "fa-caret-square-o-down",
+  "fa-toggle-up",
+  "fa-caret-square-o-up",
+  "fa-toggle-right",
+   "fa-repeat",
+  "fa-caret-square-o-right",
+  "fa-euro",
+  "fa-eur",
+  "fa-gbp",
+  "fa-dollar",
+  "fa-usd",
+  "fa-rupee",
+  "fa-inr",
+  "fa-cny",
+  "fa-rmb",
+   "fa-refresh",
+  "fa-yen",
+  "fa-jpy",
+  "fa-ruble",
+  "fa-rouble",
+  "fa-rub",
+  "fa-won",
+  "fa-krw",
+  "fa-bitcoin",
+  "fa-btc",
+  "fa-file",
+   "fa-list-alt",
+  "fa-file-text",
+  "fa-sort-alpha-asc",
+  "fa-sort-alpha-desc",
+  "fa-sort-amount-asc",
+  "fa-sort-amount-desc",
+  "fa-sort-numeric-asc",
+  "fa-sort-numeric-desc",
+  "fa-thumbs-up",
+  "fa-thumbs-down",
+  "fa-youtube-square",
+   "fa-lock",
+  "fa-youtube",
+  "fa-xing",
+  "fa-xing-square",
+  "fa-youtube-play",
+  "fa-dropbox",
+  "fa-stack-overflow",
+  "fa-instagram",
+  "fa-flickr",
+  "fa-adn",
+  "fa-bitbucket",
+   "fa-flag",
+  "fa-bitbucket-square",
+  "fa-tumblr",
+  "fa-tumblr-square",
+  "fa-long-arrow-down",
+  "fa-long-arrow-up",
+  "fa-long-arrow-left",
+  "fa-long-arrow-right",
+  "fa-apple",
+  "fa-windows",
+  "fa-android",
+   "fa-headphones",
+  "fa-linux",
+  "fa-dribbble",
+  "fa-skype",
+  "fa-foursquare",
+  "fa-trello",
+  "fa-female",
+  "fa-male",
+  "fa-gittip",
+  "fa-sun-o",
+  "fa-moon-o",
+    "fa-envelope-o",
+   "fa-volume-off",
+  "fa-archive",
+  "fa-bug",
+  "fa-vk",
+  "fa-weibo",
+  "fa-renren",
+  "fa-pagelines",
+  "fa-stack-exchange",
+  "fa-arrow-circle-o-right",
+  "fa-arrow-circle-o-left",
+  "fa-toggle-left",
+   "fa-volume-down",
+  "fa-caret-square-o-left",
+  "fa-dot-circle-o",
+  "fa-wheelchair",
+  "fa-vimeo-square",
+  "fa-turkish-lira",
+  "fa-try",
+  "fa-plus-square-o",
+  "fa-space-shuttle",
+  "fa-slack",
+  "fa-envelope-square",
+   "fa-volume-up",
+  "fa-wordpress",
+  "fa-openid",
+  "fa-institution",
+  "fa-bank",
+  "fa-university",
+  "fa-mortar-board",
+  "fa-graduation-cap",
+  "fa-yahoo",
+  "fa-google",
+  "fa-reddit",
+   "fa-qrcode",
+  "fa-reddit-square",
+  "fa-stumbleupon-circle",
+  "fa-stumbleupon",
+  "fa-delicious",
+  "fa-digg",
+  "fa-pied-piper",
+  "fa-pied-piper-alt",
+  "fa-drupal",
+  "fa-joomla",
+  "fa-language",
+   "fa-barcode",
+  "fa-fax",
+  "fa-building",
+  "fa-child",
+  "fa-paw",
+  "fa-spoon",
+  "fa-cube",
+  "fa-cubes",
+  "fa-behance",
+  "fa-behance-square",
+  "fa-steam",
+   "fa-tag",
+  "fa-steam-square",
+  "fa-recycle",
+  "fa-automobile",
+  "fa-car",
+  "fa-cab",
+  "fa-taxi",
+  "fa-tree",
+  "fa-spotify",
+  "fa-deviantart",
+  "fa-soundcloud",
+   "fa-tags",
+  "fa-database",
+  "fa-file-pdf-o",
+  "fa-file-word-o",
+  "fa-file-excel-o",
+  "fa-file-powerpoint-o",
+  "fa-file-photo-o",
+  "fa-file-picture-o",
+  "fa-file-image-o",
+  "fa-file-zip-o",
+  "fa-file-archive-o",
+   "fa-book",
+  "fa-file-sound-o",
+  "fa-file-audio-o",
+  "fa-file-movie-o",
+  "fa-file-video-o",
+  "fa-file-code-o",
+  "fa-vine",
+  "fa-codepen",
+  "fa-jsfiddle",
+  "fa-life-bouy",
+  "fa-life-buoy",
+   "fa-bookmark",
+  "fa-life-saver",
+  "fa-support",
+  "fa-life-ring",
+  "fa-circle-o-notch",
+  "fa-ra",
+  "fa-rebel",
+  "fa-ge",
+  "fa-empire",
+  "fa-git-square",
+  "fa-git",
+   "fa-print",
+  "fa-hacker-news",
+  "fa-tencent-weibo",
+  "fa-qq",
+  "fa-wechat",
+  "fa-weixin",
+  "fa-send",
+  "fa-paper-plane",
+  "fa-send-o",
+  "fa-paper-plane-o",
+  "fa-history",
+    "fa-heart",
+   "fa-camera",
+  "fa-circle-thin",
+  "fa-header",
+  "fa-paragraph",
+  "fa-sliders",
+  "fa-share-alt",
+  "fa-share-alt-square",
+  "fa-bomb",
+  "fa-soccer-ball-o",
+  "fa-futbol-o",
+  "fa-tty",
+   "fa-font",
+  "fa-binoculars",
+  "fa-plug",
+  "fa-slideshare",
+  "fa-twitch",
+  "fa-yelp",
+  "fa-newspaper-o",
+  "fa-wifi",
+  "fa-calculator",
+  "fa-paypal",
+  "fa-google-wallet",
+   "fa-bold",
+  "fa-cc-visa",
+  "fa-cc-mastercard",
+  "fa-cc-discover",
+  "fa-cc-amex",
+  "fa-cc-paypal",
+  "fa-cc-stripe",
+  "fa-bell-slash",
+  "fa-bell-slash-o",
+  "fa-trash",
+  "fa-copyright",
+   "fa-italic",
+  "fa-at",
+  "fa-eyedropper",
+  "fa-paint-brush",
+  "fa-birthday-cake",
+  "fa-area-chart",
+  "fa-pie-chart",
+  "fa-line-chart",
+  "fa-lastfm",
+  "fa-lastfm-square",
+  "fa-toggle-off",
+   "fa-text-height",
+  "fa-toggle-on",
+  "fa-bicycle",
+  "fa-bus",
+  "fa-ioxhost",
+  "fa-angellist",
+  "fa-cc",
+  "fa-shekel",
+  "fa-sheqel",
+  "fa-ils",
+  "fa-meanpath",
+   "fa-text-width",
+   "fa-align-left",
+   "fa-align-center",
+   "fa-align-right",
+   "fa-align-justify",
+    "fa-star",
+   "fa-list",
+   "fa-dedent",
+   "fa-outdent",
+   "fa-indent",
+   "fa-video-camera",
+   "fa-photo",
+   "fa-image",
+   "fa-picture-o",
+   "fa-pencil",
+   "fa-map-marker",
+    "fa-star-o",
+   "fa-adjust",
+   "fa-tint",
+   "fa-edit",
+   "fa-pencil-square-o",
+   "fa-share-square-o",
+   "fa-check-square-o",
+   "fa-arrows",
+   "fa-step-backward",
+   "fa-fast-backward",
+   "fa-backward",
+    "fa-user",
+   "fa-play",
+   "fa-pause",
+   "fa-stop",
+   "fa-forward",
+   "fa-fast-forward",
+   "fa-step-forward",
+   "fa-eject",
+   "fa-chevron-left",
+   "fa-chevron-right",
+   "fa-plus-circle",
+    "fa-film",
+   "fa-minus-circle",
+   "fa-times-circle",
+   "fa-check-circle",
+   "fa-question-circle",
+   "fa-info-circle",
+   "fa-crosshairs",
+   "fa-times-circle-o",
+   "fa-check-circle-o",
+   "fa-ban",
+   "fa-arrow-left"
+
+
+
+american-sign-language-interpreting,
+asl-interpreting,
+assistive-listening-systems,
+audio-description,
+blind,
+braille,
+deaf,
+deafness,
+envira,
+fa,
+first-order,
+font-awesome,
+gitlab,
+glide,
+glide-g,
+google-plus-circle,
+google-plus-official,
+hard-of-hearing,
+instagram,
+low-vision,
+pied-piper,
+question-circle-o,
+sign-language,
+signing,
+snapchat,
+snapchat-ghost,
+snapchat-square,
+themeisle,
+universal-access,
+viadeo,
+viadeo-square,
+volume-control-phone,
+wheelchair-alt,
+wpbeginner,
+wpforms,
+yoast,
+adjust,
+american-sign-language-interpreting,
+anchor,
+archive,
+area-chart,
+arrows,
+arrows-h,
+arrows-v,
+asl-interpreting,
+assistive-listening-systems,
+asterisk,
+at,
+audio-description,
+automobile,
+balance-scale,
+ban,
+bank,
+bar-chart,
+bar-chart-o,
+barcode,
+bars,
+battery-0,
+battery-1,
+battery-2,
+battery-3,
+battery-4,
+battery-empty,
+battery-full,
+battery-half,
+battery-quarter,
+battery-three-quarters,
+bed,
+beer,
+bell,
+bell-o,
+bell-slash,
+bell-slash-o,
+bicycle,
+binoculars,
+birthday-cake,
+blind,
+bluetooth,
+bluetooth-b,
+bolt,
+bomb,
+book,
+bookmark,
+bookmark-o,
+braille,
+briefcase,
+bug,
+building,
+building-o,
+bullhorn,
+bullseye,
+bus,
+cab,
+calculator,
+calendar,
+calendar-check-o,
+calendar-minus-o,
+calendar-o,
+calendar-plus-o,
+calendar-times-o,
+camera,
+camera-retro,
+car,
+caret-square-o-down,
+caret-square-o-left,
+caret-square-o-right,
+caret-square-o-up,
+cart-arrow-down,
+cart-plus,
+cc,
+certificate,
+check,
+check-circle,
+check-circle-o,
+check-square,
+check-square-o,
+child,
+circle,
+circle-o,
+circle-o-notch,
+circle-thin,
+clock-o,
+clone,
+close,
+cloud,
+cloud-download,
+cloud-upload,
+code,
+code-fork,
+coffee,
+cog,
+cogs,
+comment,
+comment-o,
+commenting,
+commenting-o,
+comments,
+comments-o,
+compass,
+copyright,
+creative-commons,
+credit-card,
+credit-card-alt,
+crop,
+crosshairs,
+cube,
+cubes,
+cutlery,
+dashboard,
+database,
+deaf,
+deafness,
+desktop,
+diamond,
+dot-circle-o,
+download,
+edit,
+ellipsis-h
+ellipsis-v
+envelope
+envelope-o
+envelope-square
+eraser
+exchange
+exclamation
+exclamation-circle
+exclamation-triangle
+external-link
+external-link-square
+eye
+eye-slash
+eyedropper
+fax
+feed
+female
+fighter-jet
+file-archive-o
+file-audio-o
+file-code-o
+file-excel-o
+file-image-o
+file-movie-o
+file-pdf-o
+file-photo-o
+file-picture-o
+file-powerpoint-o
+file-sound-o
+file-video-o
+file-word-o
+file-zip-o
+film
+filter
+fire
+fire-extinguisher
+flag
+flag-checkered
+flag-o
+flash
+flask
+folder
+folder-o
+folder-open
+folder-open-o
+frown-o
+futbol-o
+gamepad
+gavel
+gear
+gears
+gift
+glass
+globe
+graduation-cap
+group
+hand-grab-o
+hand-lizard-o
+hand-paper-o
+hand-peace-o
+hand-pointer-o
+hand-rock-o
+hand-scissors-o
+hand-spock-o
+hand-stop-o
+hard-of-hearing
+hashtag
+hdd-o
+headphones
+heart
+heart-o
+heartbeat
+history
+home
+hotel
+hourglass
+hourglass-1
+hourglass-2
+hourglass-3
+hourglass-end
+hourglass-half
+hourglass-o
+hourglass-start
+i-cursor
+image
+inbox
+industry
+info
+info-circle
+institution
+key
+keyboard-o
+language
+laptop
+leaf
+legal
+lemon-o
+level-down
+level-up
+life-bouy
+life-buoy
+life-ring
+life-saver
+lightbulb-o
+line-chart
+location-arrow
+lock
+low-vision
+magic
+magnet
+mail-forward
+mail-reply
+mail-reply-all
+male
+map
+map-marker
+map-o
+map-pin
+map-signs
+meh-o
+microphone
+microphone-slash
+minus
+minus-circle
+minus-square
+minus-square-o
+mobile
+mobile-phone
+money
+moon-o
+mortar-board
+motorcycle
+mouse-pointer
+music
+navicon
+newspaper-o
+object-group
+object-ungroup
+paint-brush
+paper-plane
+paper-plane-o
+paw
+pencil
+pencil-square
+pencil-square-o
+percent
+phone
+phone-square
+photo
+picture-o
+pie-chart
+plane
+plug
+plus
+plus-circle
+plus-square
+plus-square-o
+power-off
+print
+puzzle-piece
+qrcode
+question
+question-circle
+question-circle-o
+quote-left
+quote-right
+random
+recycle
+refresh
+registered
+remove
+reorder
+reply
+reply-all
+retweet
+road
+rocket
+rss
+rss-square
+search
+search-minus
+search-plus
+send
+send-o
+server
+share
+share-alt
+share-alt-square
+share-square
+share-square-o
+shield
+ship
+shopping-bag
+shopping-basket
+shopping-cart
+sign-in
+sign-language
+sign-out
+signal
+signing
+sitemap
+sliders
+smile-o
+soccer-ball-o
+sort
+sort-alpha-asc
+sort-alpha-desc
+sort-amount-asc
+sort-amount-desc
+sort-asc
+sort-desc
+sort-down
+sort-numeric-asc
+sort-numeric-desc
+sort-up
+space-shuttle
+spinner
+spoon
+square
+square-o
+star
+star-half
+star-half-empty
+star-half-full
+star-half-o
+star-o
+sticky-note
+sticky-note-o
+street-view
+suitcase
+sun-o
+support
+tablet
+tachometer
+tag
+tags
+tasks
+taxi
+television
+terminal
+thumb-tack
+thumbs-down
+thumbs-o-down
+thumbs-o-up
+thumbs-up
+ticket
+times
+times-circle
+times-circle-o
+tint
+toggle-down
+toggle-left
+toggle-off
+toggle-on
+toggle-right
+toggle-up
+trademark
+trash
+trash-o
+tree
+trophy
+truck
+tty
+tv
+umbrella
+universal-access
+university
+unlock
+unlock-alt
+unsorted
+upload
+user
+user-plus
+user-secret
+user-times
+users
+video-camera
+volume-control-phone
+volume-down
+volume-off
+volume-up
+warning
+wheelchair
+wheelchair-alt
+wifi
+wrench
+易用的icon
+american-sign-language-interpreting
+asl-interpreting
+assistive-listening-systems
+audio-description
+blind
+braille
+cc
+deaf
+deafness
+hard-of-hearing
+low-vision
+question-circle-o
+sign-language
+signing
+tty
+universal-access
+volume-control-phone
+wheelchair
+wheelchair-alt
+手型icon
+hand-grab-o
+hand-lizard-o
+hand-o-down
+hand-o-left
+hand-o-right
+hand-o-up
+hand-paper-o
+hand-peace-o
+hand-pointer-o
+hand-rock-o
+hand-scissors-o
+hand-spock-o
+hand-stop-o
+thumbs-down
+thumbs-o-down
+thumbs-o-up
+thumbs-up
+交通图标
+ambulance
+automobile
+bicycle
+bus
+cab
+car
+fighter-jet
+motorcycle
+plane
+rocket
+ship
+space-shuttle
+subway
+taxi
+train
+truck
+wheelchair
+wheelchair-alt
+性别图标
+genderless
+intersex
+mars
+mars-double
+mars-stroke
+mars-stroke-h
+mars-stroke-v
+mercury
+neuter
+transgender
+transgender-alt
+venus
+venus-double
+venus-mars
+文件图标
+file
+file-archive-o
+file-audio-o
+file-code-o
+file-excel-o
+file-image-o
+file-movie-o
+file-o
+file-pdf-o
+file-photo-o
+file-picture-o
+file-powerpoint-o
+file-sound-o
+file-text
+file-text-o
+file-video-o
+file-word-o
+file-zip-o
+旋转图标Spinner,Icons
+circle-o-notch
+cog
+gear
+refresh
+spinner
+表单图标
+check-square
+check-square-o
+circle
+circle-o
+dot-circle-o
+minus-square
+minus-square-o
+plus-square
+plus-square-o
+square
+square-o
+支付图标
+cc-amex
+cc-diners-club
+cc-discover
+cc-jcb
+cc-mastercard
+cc-paypal
+cc-stripe
+cc-visa
+credit-card
+credit-card-alt
+google-wallet
+paypal
+图表chart图表
+area-chart
+bar-chart
+bar-chart-o
+line-chart
+pie-chart
+货币Currency,Icons
+bitcoin
+btc
+cny
+dollar
+eur
+euro
+gbp
+gg
+gg-circle
+ils
+inr
+jpy
+krw
+money
+rmb
+rouble
+rub
+ruble
+rupee
+shekel
+sheqel
+try
+turkish-lira
+usd
+won
+yen
+文本编辑Text,Editor,Icons
+align-center
+align-justify
+align-left
+align-right
+bold
+chain
+chain-broken
+clipboard
+columns
+copy
+cut
+dedent
+eraser
+file
+file-o
+file-text
+file-text-o
+files-o
+floppy-o
+font
+header
+indent
+italic
+link
+list
+list-alt
+list-ol
+list-ul
+outdent
+paperclip
+paragraph
+paste
+repeat
+rotate-left
+rotate-right
+save
+scissors
+strikethrough
+subscript
+superscript
+table
+text-height
+text-width
+th
+th-large
+th-list
+underline
+undo
+unlink
+方向指示图标Directional,Icons
+angle-double-down
+angle-double-left
+angle-double-right
+angle-double-up
+angle-down
+angle-left
+angle-right
+angle-up
+arrow-circle-down
+arrow-circle-left
+arrow-circle-o-down
+arrow-circle-o-left
+arrow-circle-o-right
+arrow-circle-o-up
+arrow-circle-right
+arrow-circle-up
+arrow-down
+arrow-left
+arrow-right
+arrow-up
+arrows
+arrows-alt
+arrows-h
+arrows-v
+caret-down
+caret-left
+caret-right
+caret-square-o-down
+caret-square-o-left
+caret-square-o-right
+caret-square-o-up
+caret-up
+chevron-circle-down
+chevron-circle-left
+chevron-circle-right
+chevron-circle-up
+chevron-down
+chevron-left
+chevron-right
+chevron-up
+exchange
+hand-o-down
+hand-o-left
+hand-o-right
+hand-o-up
+long-arrow-down
+long-arrow-left
+long-arrow-right
+long-arrow-up
+toggle-down
+toggle-left
+toggle-right
+toggle-up
+视频播放器图标Video,Player,Icons
+arrows-alt
+backward
+compress
+eject
+expand
+fast-backward
+fast-forward
+forward
+pause
+pause-circle
+pause-circle-o
+play
+play-circle
+play-circle-o
+random
+step-backward
+step-forward
+stop
+stop-circle
+stop-circle-o
+youtube-play
+500px
+adn
+amazon
+android
+angellist
+apple
+behance
+behance-square
+bitbucket
+bitbucket-square
+bitcoin
+black-tie
+bluetooth
+bluetooth-b
+btc
+buysellads
+cc-amex
+cc-diners-club
+cc-discover
+cc-jcb
+cc-mastercard
+cc-paypal
+cc-stripe
+cc-visa
+chrome
+codepen
+codiepie
+connectdevelop
+contao
+css3
+dashcube
+delicious
+deviantart
+digg
+dribbble
+dropbox
+drupal
+edge
+empire
+envira
+expeditedssl
+fa
+facebook
+facebook-f
+facebook-official
+facebook-square
+firefox
+first-order
+flickr
+font-awesome
+fonticons
+fort-awesome
+forumbee
+foursquare
+ge
+get-pocket
+gg
+gg-circle
+git
+git-square
+github
+github-alt
+github-square
+gitlab
+gittip
+glide
+glide-g
+google
+google-plus
+google-plus-circle
+google-plus-official
+google-plus-square
+google-wallet
+gratipay
+hacker-news
+houzz
+html5
+instagram
+internet-explorer
+ioxhost
+joomla
+jsfiddle
+lastfm
+lastfm-square
+leanpub
+linkedin
+linkedin-square
+linux
+maxcdn
+meanpath
+medium
+mixcloud
+modx
+odnoklassniki
+odnoklassniki-square
+opencart
+openid
+opera
+optin-monster
+pagelines
+paypal,
+pied-piper,
+pied-piper-alt,
+pied-piper-pp,
+pinterest,
+pinterest-p,
+pinterest-square,
+product-hunt,
+qq,
+ra,
+rebel,
+reddit,
+reddit-alien,
+reddit-square,
+renren,
+resistance,
+safari,
+scribd,
+sellsy,
+share-alt,
+share-alt-square,
+shirtsinbulk,
+simplybuilt,
+skyatlas,
+skype,
+slack,
+slideshare,
+snapchat,
+snapchat-ghost,
+snapchat-square,
+soundcloud,
+spotify,
+stack-exchange,
+stack-overflow,
+steam,
+steam-square,
+stumbleupon,
+stumbleupon-circle,
+tencent-weibo,
+themeisle,
+trello,
+tripadvisor,
+tumblr,
+tumblr-square,
+twitch,
+twitter,
+twitter-square,
+usb,
+viacoin,
+viadeo,
+viadeo-square,
+vimeo,
+vimeo-square,
+vine,
+vk,
+wechat,
+weibo,
+weixin,
+whatsapp,
+wikipedia-w,
+windows,
+wordpress,
+wpbeginner,
+wpforms,
+xing,
+xing-square,
+y-combinator,
+y-combinator-square,
+yahoo,
+yc,
+yc-square,
+yelp,
+yoast,
+youtube,
+youtube-play,
+youtube-square,
+ambulance,
+h-square,
+heart,
+heart-o,
+heartbeat,
+hospital-o,
+medkit,
+plus-square,
+stethoscope,
+user-md,
+wheelchair,
+wheelchair-alt
+*/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="referrer" content="never">
+  ﻿<meta data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="shortcut icon" href="static/budaos/favicon.ico" />
+  <script type="text/javascript" src="static/budaos/jquery-3.3.1.min.js"></script>
+  <title>创蓝教育实训云平台</title>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+
+</body>
+<script>
+  const screenWidth = window.screen.width;
+  //[1920,]
+  let fontStyleTag = document.getElementById("fontStyle")
+  if (!fontStyleTag) {
+    fontStyleTag = document.createElement('style')
+    fontStyleTag.setAttribute('id', "fontStyle")
+    document.body.appendChild(fontStyleTag)
+  }
+  if(screenWidth >= 1920){
+    fontStyleTag.innerText = "html {font-size: 14px;}";
+  //[1680, 1920)
+  } else if(screenWidth >= 1680){
+    fontStyleTag.innerText = "html {font-size: 13px;}";
+  //[1366, 1680)
+  }else if(screenWidth >= 1366){
+    fontStyleTag.innerText = "html {font-size: 12px;}";
+  //[, 1366)
+  } else {
+    fontStyleTag.innerText = "html {font-size: 11px;}";
+  }
+</script>
+</html>

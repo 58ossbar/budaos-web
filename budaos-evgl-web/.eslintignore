@@ -1,0 +1,7 @@
+/build/
+/config/
+/dist/
+/*.js
+/static/
+/src/assets/
+/src/utils/webSockets.js

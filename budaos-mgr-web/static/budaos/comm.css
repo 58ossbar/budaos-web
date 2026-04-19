@@ -1,0 +1,552 @@
+﻿/*公共css文件*/
+
+/* ********************************* 表单布局 begin ********************************* */
+.floating-half {
+  float: left;
+  width: 49%;
+}
+
+.floating-all {
+  float: left;
+  width: 98%;
+}
+/* ********************************* 表单布局 end ********************************* */
+
+/* -----------------菜单、机构、参数、字典、附件 管理 公共样式begin------------------*/
+/* 阴影效果*/
+ul,ul li{
+  margin: 0;
+  padding: 0;
+}
+ul{
+ /* display: flex;*/
+  list-style: none;
+}
+.paddingNone{
+  padding: 0;
+}
+.marginNone{
+  margin: 0;
+}
+.box_shadows{
+  box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+  border-radius: 6px;
+}
+.el-transfer-panel{
+  width: 40%;
+  text-align: center;
+  display: inline-block;
+}
+.el-transfer-panel__body{
+  text-align: left;
+  display: inline-block;
+}
+/*停用状态的颜色 改变*/
+.displayColor{
+  color: #c8c5c5;
+}
+.el_row_width{
+  width: 95%;
+}
+.menuFormWidth{
+  width: 98%;
+}
+/* 定义 菜单、机构、参数、字典、附件 管理 的背景为白色*/
+.bgcolor{
+  background-color: #fff;
+}
+/* 定义 菜单、机构、参数、字典、附件 管理 的全局版块的样式，方便滚动条*/
+.scrollAllY{
+  position: absolute;bottom:0px;top:0px;
+  width: 99%;
+}
+.attachAll{
+  margin-top: -5px;
+}
+/* 定义 菜单、机构、参数、字典、附件 管理 的左边版块的样式，方便滚动条*/
+.scrollLeftY{
+  position: absolute;bottom: 5px;top:5px;
+  overflow-y: auto;
+  width:250px;
+}
+.LeftPadding{
+  padding: 10px;text-align: left;margin-right: 10px;
+}
+.textAlign{
+  text-align:left;
+}
+.textAlignLeft{
+  text-align:left;
+}
+.textAlignRight{
+  text-align:right;
+}
+.scrollRightY{
+  position: absolute;top:5px;
+  left: 280px;
+  width: calc(100vw - 540px);
+}
+/*右边的padding和距离下面的高度*/
+.scrollRightYDictMenu{
+  padding: 10px 20px;margin-bottom: 10px;
+}
+
+.displayFlex{
+  display:flex;
+}
+.parameterDiagoDiv{
+  width: 49%;
+}
+.parameterDiagoDivTwo{
+  margin-left:1%;
+}
+.postNameMargin{
+  margin-left: -60px;
+}
+.deptInfoSpan{
+  margin-bottom: 10px;display: inline-block;
+}
+.menuChaKanXuaXian{
+  border-bottom: 1px solid #EBEEF5;margin-bottom: 10px;
+}
+.menuPadding{
+  padding: 10px;
+}
+.buttomMargin{
+  margin-right: 5px;
+}
+.elRadioMargin{
+  margin-right: 15px;
+}
+.dictIconTreeStyle{
+  margin-right: 5px;width: 14px;height: 14px;
+}
+.elDeptFormButton{
+  margin-top: 10px;text-align: center;
+}
+.dialogFormTop{
+  padding: 20px 10px 0px 0px ;
+}
+.tableDict{
+  padding: 0px 10px 30px 10px;
+}
+.postIconEditDelete{
+  font-size: 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.queryButtonPlus{
+  padding: 7px 7px 7px 10px;
+}
+.dictInputQueryLabelWidth{
+  margin: 0;
+ /* background: #f4f4f4;*/
+  width: 95%;
+  text-align: center;
+ /* padding-right: 10px;*/
+}
+.editButtonPost{
+  padding: 5px 6px;
+}
+.dictInputQueryWidth{
+  margin:  0;width: 95%;
+}
+.dictQueryOptionPadding{
+  padding-left: 20px;
+}
+.dictUPloadWidth{
+  width: 130px;height: 130px
+}
+.dictUPloadImgs{
+  width: 50px;height: auto;margin-top: 40px;
+}
+.elCollapseDict .el-form-item--small .el-form-item__content,
+.elCollapseDict .el-form-item--small .el-form-item__label,
+.elCollapseDict .el-date-editor.el-input, .el-date-editor.el-input__inner{
+  width: 100%;
+}
+.widthJiuBa{
+  width: 98%;
+}
+.deptHoverColor{
+  border: none;
+  height: 24px;
+  border-radius: 0;
+  text-align: left;
+  padding: 0;
+}
+/*.el_radio_group_margin_left{
+  margin-left: -80px;
+}*/
+.avatar-uploader {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409EFF;
+}
+.avatar-uploader-icon {
+  font-size: 2rem;
+  color: #8c939d;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+.avatar {
+  width: 130px;
+  height: 130px;
+  display: block;
+}
+/*collapse折叠面板前面的竖线的样式*/
+.collapseItemHr{
+  padding: 0px;margin-right: 10px; width: 3px;height: 14px;
+}
+/*树懒加载的悬浮三点图标*/
+.treeIconHover{
+  transform: rotate(90deg);
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+/*树懒加载的悬浮菜单begin*/
+.treeHoverUl{
+  position: absolute;
+  right:5px;
+  z-index: 555;
+  background-color: #FFF;
+  border: 1px solid #EBEEF5;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+  padding: 10px 0;
+}
+.treeHoverUl li{
+  width:100%;
+}
+.treeHoverUlButtom{
+  width: 100%;border-radius: 0px;padding: 7px 30px;
+  border: none;
+}
+.elTreeDeptScroll{
+  overflow-y:auto; height:200px;
+}
+/*树节点选中的颜色变化*/
+.el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+  /*background-color: #409EFF;*/
+  /*opacity: 0.2;*/
+  background-color: rgba(64,158,255,0.2);
+}
+  /*树懒加载的悬浮菜单end*/
+.widthAll{
+  width: 100%
+}
+.marginBottom{
+  margin-bottom: 5px;
+}
+.fontSizeComm{
+  font-size: 1rem;
+}
+.elCollapseItemNoBoeder,
+.elCollapseItemNoBoeder .el-collapse-item__wrap,
+.elCollapseItemNoBoeder .el-collapse-item__header{
+  border-bottom: none;border-top: none;
+}
+.elCollapseItemMarginBottom{
+  margin-top: -48px;
+}
+.dictQueryCenterButton{
+  margin-top: -25px;
+}
+/* ----------------菜单、机构、参数、字典、附件 管理 公共样式end--------------*/
+
+/*----------dialog弹窗全局样式开始---------------*/
+/*圆角*/
+.el-dialog {
+  border-radius: 10px;
+}
+/*标题栏：高45px*/
+.el-dialog__header {
+  padding-top: 10px;
+  background-color: #409EFF;
+  border-bottom: solid 1px #d2cdcd;
+  border-radius: 10px 10px 0px 0px;
+  height: 24px;
+  line-height: 24px;
+  text-align: left;
+}
+/*标题颜色*/
+.el-dialog__title {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.143rem;
+}
+/*关闭按钮位置*/
+.el-dialog__headerbtn {
+  top: 15px;
+  right: 15px;
+}
+/*关闭按钮hover颜色*/
+.el-dialog__headerbtn:hover .el-dialog__close{
+  background-color: #FFF;
+  color: #409EFF;
+}
+/*关闭按钮默认颜色*/
+.el-dialog__headerbtn .el-dialog__close {
+  background-color: #409EFF;
+  color: #FFF;
+}
+/*内容区内边距，上下为0，左右为5*/
+.el-dialog__body {
+  padding: 0px 5px;
+  max-height: 72vh;
+  overflow: auto;
+}
+/*底部按钮栏：高45px*/
+.el-dialog__footer {
+  padding: 5px 5px 5px;
+  border-top: solid 1px #d2cdcd;
+  background-color: rgb(244, 244, 244);
+  border-radius: 0px 0px 10px 10px;
+  height: 45px;
+}
+/*底部按钮栏内容垂直居中*/
+.el-dialog__footer .dialog-footer{
+  height: 32px;
+  line-height: 32px;
+}
+/*----------dialog弹窗全局样式结束---------------*/
+
+/*----------后台首页左侧菜单树间距全局样式结束---------------*/
+/*一级菜单高度*/
+.el-menu-item, .el-submenu__title {
+  height: 35px;
+  line-height: 35px;
+}
+/*二级菜单高度*/
+.el-submenu .el-menu-item {
+  height: 35px;
+  line-height: 35px;
+}
+/*选中菜单项增加主题色的右边框*/
+.el-menu.menu-bar-width .el-menu-item.is-active {
+  border-right: 3px solid #409EFF;
+}
+/* fa和el两套图标兼容样式*/
+.el-menu-item i {
+  vertical-align: middle;
+/*  margin-right: 5px;*/
+  width: 24px;
+  text-align: center;
+}
+.el-submenu__title i {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+}
+.el-submenu__icon-arrow {
+  margin-top: -8px;
+}
+/*----------后台首页左侧菜单树间距全局样式结束---------------*/
+/*账号设置 - 个性化的上传提示信息begin*/
+.colorPersonlLogo{
+  color:#c11212;
+  margin-left: -60px;
+}
+.colorPersonl{
+  color:#c11212;
+  display: inline-block;
+  text-align: left;
+  margin-left: -70px;
+}
+/*账号设置 - 个性化的上传提示信息end*/
+.loginLogoStyle {
+  width: 70px;
+  height: 70px;
+  margin-top: 2.5px;
+  border-radius: 50%;
+}
+
+
+/*----------后台首页头部全局样式结束---------------*/
+/*子系统icon颜色白色*/
+.headbar .el-menu-item > div > i {
+  color: #fff;
+}
+/*导航tab标签增加主题色的下边框*/
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+  border-bottom: 2px solid;
+}
+/*个人中心下拉面板宽度*/
+.el-popover {
+  min-width: 100px;
+}
+/*----------后台首页头部全局样式结束---------------*/
+/*----------颜色选择器换图标begin---------------*/
+.el-color-picker__trigger .el-icon-arrow-down:before {
+  content: "\E6CE" !important;
+  font-size: 1.786rem;
+  border: none;
+}
+.el-color-picker__trigger{
+  border: none;
+}
+.el-color-picker__color{
+  border: none;
+}
+/*----------颜色选择器换图标end---------------*/
+
+/*----------全局滚动条样式开始----------*/
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color:#f4f4f4;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+  background-color: #409EFF;
+}
+/*----------全局滚动条样式结束----------*/
+
+/*----------全局collapse组件样式结束----------*/
+.el-collapse-item__header {
+  font-size: 1rem;
+  font-weight: bold;
+}
+/*----------全局collapse组件样式结束----------*/
+
+/*----------全局字体大小自适应开始-----------*/
+.el-tag {
+  font-size: 14px;
+}
+/*14px*/
+.el-menu-item, .el-submenu__title, .el-tree-node__label, .el-form-item__content,
+  .el-tabs__item, .el-form-item__label, .el-radio__label, .el-checkbox__label,
+  .el-input__inner, .el-select-dropdown__item {
+  font-size: 1rem;
+}
+/*12px*/
+.el-table--mini, .el-table--small, .el-table__expand-icon, .el-button--mini, .el-button--small, .el-date-table,.el-tag {
+  font-size: 0.857rem;
+}
+/*13px*/
+.el-pagination button, .el-pagination span:not([class*=suffix]) {
+  font-size: 0.929rem;
+}
+/*16px*/
+.el-date-picker__header-label {
+  font-size: 1.143rem;
+}
+/*----------全局字体大小自适应结束-----------*/
+
+/*--------------创蓝组件cb-tree样式开始--------------*/
+.cb-tree .el-input__prefix {
+  display: flex;
+  width: 96%;
+  overflow: hidden;
+}
+.cb-tree .el-input__prefix > span {
+  margin-top: 6px;
+}
+.cb-tree .el-tag--plain.el-tag--danger {
+  border-color: #409EFF;
+  color: #409EFF;
+}
+/*--------------创蓝组件cb-tree样式结束--------------*/
+/*--------------创蓝组件cb-upload样式开始--------------*/
+.cb-upload .el-upload {
+  display: block;
+  height: 133px;
+  overflow: hidden;
+}
+/*--------------创蓝组件cb-upload样式结束--------------*/
+
+/*处理el-textarea于el-input的字体不一致begin*/
+.handle-font textarea{
+  font-size: 1rem;
+  /*color: rgb(96, 98, 102);*/
+  font-family: inherit;
+}
+/*处理el-textarea于el-input的字体不一致begin*/
+
+/* （考核规则）鼠标右键菜单的样式 begin */
+.custom-context-menu {
+  position: fixed;
+  border: 1px solid #ccc;
+  list-style: none;
+  padding: 4px 0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px 2px #ddd;
+  background-color: #fff;
+  z-index: 12000;
+}
+.hidden {
+  display: none;
+}
+.custom-context-menu li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0f2f5;
+  user-select: none;
+  transition: all 0.1s;
+}
+.custom-context-menu li :last-child {
+  border-bottom: none;
+}
+.custom-context-menu li:hover {
+  cursor: pointer;
+  background-color: rgb(64, 158, 255);
+  color: #fff;
+}
+.custom-context-menu li:active {
+  background-color: #f0f2f7;
+}
+/* 鼠标右键菜单的样式 end */
+
+/* 职业课程，章节录入界面中的树的高度 begin */
+.tree-area .el-tree-node__content {
+  height: 36px;
+}
+/* 职业课程，章节录入界面中的树的高度 end */
+
+/* 文字 超出隐藏 begin */
+
+/*单行超出隐藏*/
+.hide_single {
+	/*letter-spacing: 2px;  字间距*/
+  display:block;/*内联对象需加*/
+  /*width:5em;指定宽度*/
+  word-break:keep-all;/* 不换行 */
+  white-space:nowrap;/* 强制在同一行内显示所有文本,直到文本结束或者遭遇 br 对象。不换行 */
+  overflow:hidden !important;/* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow:ellipsis;
+}
+/**多行超出显示省略号*/
+.hide_double{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 这是设置显示的多少行 */
+  overflow: hidden;
+  word-break: break-all;
+   text-overflow:ellipsis;
+}
+/* 文字 超出隐藏 end */
+
+/* 公众号 资讯 编辑  上下移 面板 begin*/
+.pre-hover-popover {
+  min-width: 34px;
+}
+.pre-hover-popover-none{
+  display: none;
+}
+/* 公众号 资讯 编辑  上下移 面板 end */
