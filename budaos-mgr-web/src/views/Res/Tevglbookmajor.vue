@@ -241,7 +241,7 @@ export default {
         term: "1",
         majorId: "",
         dataTevglBookMajor: {
-          orgId: [{ required: true, message: "所属院校不能为空", trigger: "blur" }],
+          orgId: [{ required: true, message: "所属院校不能为空", trigger: "change" }],
           majorName: [{ required: true, message: "专业名称不能为空", trigger: "blur" }],
           majorLogo: [{ required: true, message: "专业logo图不能为空", trigger: "blur" }],
           majorDesc: [{ required: true, message: "专业简介(文本)不能为空", trigger: "blur" }],
@@ -256,7 +256,7 @@ export default {
           state: [{ required: true, message: "状态不能为空", trigger: "blur" }],
         },
         dataTevglBookSubject: {
-          orgId: [{ required: true, message: "所属院校不能为空", trigger: "blur" }],
+          orgId: [{ required: true, message: "所属院校不能为空", trigger: "change" }],
           term: [{ required: true, message: "所属学期不能为空", trigger: "blur" }],
           subjectProperty: [{ required: true, message: "课程属性不能为空", trigger: "blur" }],
           majorId: [{ required: true, message: "所属职业课程路径不能为空", trigger: "blur" }],

@@ -77,9 +77,10 @@ export default {
     handleAvatarSuccess(res, file) {
       this.uploadImgIsOk = false // 当点击了头像上传。
       if (res.code == 0) {
-        this.src = URL.createObjectURL(file.raw)
         this.dataForm[this.name] = res.data.imgNamePc
         this.dataForm[this.name + 'AttachId'] = res.data.attachId
+        // 使用服务器返回的完整路径更新预览图，避免临时文件被清理导致预览失效
+        this.src = baseUrl + res.data.imgNamePc
         this.uploadImgIsOk = true // 标识上传成功
         // 如果传递了父vue，则重新将表单进行一次校验
         if (this.parentVue && this.dataForm) {
@@ -107,40 +108,7 @@ export default {
       if (!isLt2M) {
         this.$message.error('上传头像图片大小不能超过 2MB!')
       }
-      if (!this.width) {
-        return isJPG && isLt2M
-      }
-      // 限制图片尺寸
-      let width = 1920; if (this.width) { width = Number(this.width) }
-      let height = 1080; if (this.height) { height = Number(this.height) }
-      let range = 20; if (this.errorRange) { range = Number(this.errorRange) }
-      const isSize = new Promise(function(resolve, reject) {
-        const _URL = window.URL || window.webkitURL
-        const img = new Image()
-        img.onload = function() {
-          // let valid = img.width === width && img.height === height;
-          const val = (img.width >= width - range) && (img.width <= width + range)
-          const val2 = (img.height >= height - range) && (img.height - range <= height + range)
-          const valid = val && val2
-          valid ? resolve() : reject()
-        }
-        img.src = _URL.createObjectURL(file)
-      }).then(() => {
-        return file
-      }, () => {
-        // this.$message.warning('图片尺寸限制为【宽】['+(width-range)+' - '+(width + range)+'] 【高】['+(height-range)+' - '+(height + range)+'] ，请选择对应尺寸的图片进行上传')
-        this.$message({
-          dangerouslyUseHTMLString: true,
-          showClose: true,
-          type: 'warning',
-          message: '请选择对应尺寸的图片进行上传' +
-              '<br>' +
-              '<br><strong>宽 : </strong>' + '[' + (width - range) + ' - ' + (width + range) + ']' +
-              '<br><strong>高 : </strong>' + '[' + (height - range) + ' - ' + (height + range) + ']'
-        })
-        return Promise.reject()
-      })
-      return isJPG && isLt2M && isSize
+      return isJPG && isLt2M
     }
   }
 }

@@ -143,7 +143,7 @@ export default {
       dataRule: {
         roleName: [{ required: true, validator: validateRoleName, trigger: 'blur' }],
         dataScope: [{ required: true, message: '数据范围不能为空', trigger: 'blur' }],
-        orgId: [{ required: true, message: '所属机构不能为空', trigger: 'blur' }]
+        orgId: [{ required: true, message: '所属机构不能为空', trigger: 'change' }]
       },
       filterTextForMenu: '',
       menuIdListData: [],

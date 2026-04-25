@@ -293,7 +293,7 @@ export default {
         userCard: [{ validator: validateUserCard, trigger: 'blur' }],
         email: [{ validator: validateEmail, trigger: 'blur' }],
         zip: [{ validator: validateZip, trigger: 'blur' }],
-        orgId: [{ required: true, message: '所属机构不能为空', trigger: 'blur' }],
+        orgId: [{ required: true, message: '所属机构不能为空', trigger: 'change' }],
         sortNum: [{ required: true, message: '排序号码不能为空', trigger: 'blur' }]
       },
       // 折叠面板初始化：初识显示哪个面板

@@ -282,7 +282,7 @@ export default {
 
         dataTevglTchClass: {
           majorId: [{ required: true, message: "职业路径不能为空", trigger: "blur" }],
-          orgId: [{ required: true, message: "所属院校不能为空", trigger: "blur" }],
+          orgId: [{ required: true, message: "所属院校不能为空", trigger: "change" }],
           className: [{ required: true, message: "班级名称不能为空", trigger: "blur" }],
           teacherId: [{ required: true, message: "班级教师不能为空", trigger: "blur" }],
           teachingAssistant: [{ required: true, message: "班级助教不能为空", trigger: "blur" }],

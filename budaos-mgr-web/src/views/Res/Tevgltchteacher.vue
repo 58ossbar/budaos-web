@@ -360,15 +360,15 @@ export default {
         activeName : "1", // 折叠面板默认显示的值
 
         dataTevglTchTeacher: {
-          orgId: [{ required: true, message: "所属院校不能为空", trigger: "blur" }],
+          orgId: [{ required: true, message: "所属院校不能为空", trigger: "change" }],
           teacherName: [{ required: true, message: "教师名称不能为空", trigger: "blur" }],
           //teacherPost: [{ required: true, message: "教师职位不能为空", trigger: "blur" }],
           teacherPic: [{ required: true, message: "教师头像不能为空", trigger: "blur" }],
           teacherDesc: [{ required: true, message: "老师简介不能为空", trigger: "blur" }],
           username: [{ required: true, message: "账号名称不能为空", trigger: "blur" }],
-          showIndex: [{ required: true, message: "首页显示不能为空", trigger: "blur" }],
-          state: [{ required: true, message: "状态不能为空", trigger: "blur" }],
-          majorId: [{ required: true, message: "职业路径不能为空", trigger: "blur" }],
+          showIndex: [{ required: true, message: "首页显示不能为空", trigger: "change" }],
+          state: [{ required: true, message: "状态不能为空", trigger: "change" }],
+          majorId: [{ required: true, message: "职业路径不能为空", trigger: "change" }],
           jobNumber: [{ required: true, message: "工号/学号不能为空", trigger: "blur" }],
           teacherErtificateNumber: [{ required: true, message: "教师证件号不能为空", trigger: "blur" }],
         },

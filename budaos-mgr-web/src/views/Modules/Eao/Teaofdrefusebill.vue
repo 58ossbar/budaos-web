@@ -311,7 +311,7 @@ export default {
           rbExplain: [{ required: true, message: "处理说明不能为空", trigger: "blur" }],
           rbMoney: [{ required: true, message: "退款金额不能为空", trigger: "blur" }],
           rbResult: [{ required: true, message: "处理结果 ,成功，打回等不能为空", trigger: "blur" }],
-          orgId: [{ required: true, message: "机构ID不能为空", trigger: "blur" }],
+          orgId: [{ required: true, message: "机构ID不能为空", trigger: "change" }],
           tno: [{ required: true, message: "交易单号：格式yyyyMMdd0000000不能为空", trigger: "blur" }],
           twxno: [{ required: true, message: "微信流水号不能为空", trigger: "blur" }],
           ttime: [{ required: true, message: "交易时间不能为空", trigger: "blur" }],
