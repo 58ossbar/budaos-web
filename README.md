@@ -151,7 +151,13 @@ npm run dev
 启动后访问：
 - 学习通：http://localhost:8888
 - 管理端：http://localhost:8889
+### 管理后台
+<img src="doc/1.png" width="800" alt="管理后台"/>
+*教务管理、用户管理、数据统计*
 
+### 学习门户
+<img src="doc/2.png" width="800" alt="学习门户"/>
+*课程学习、作业考试、社区互动*
 ### 生产环境构建
 
 ```bash
@@ -401,8 +407,8 @@ location /evgl {
 
 | 项目 | 说明 |
 |------|------|
-| [BudaOS Monolith](https://github.com/budaos/budaos-monolith) | 后端单体架构 |
-| [BudaOS Mini Program](https://github.com/budaos/budaos-miniprogram) | 微信小程序端 |
+| [BudaOS Monolith](https://github.com/58ossbar/budaos-monolith) | 后端单体架构 |
+| [BudaOS Mini Program](https://github.com/58ossbar/budaos-miniprogram) | 微信小程序端 |
 
 ---
 
@@ -411,3 +417,53 @@ location /evgl {
 **如果这个项目对您有帮助，欢迎 Star！**
 
 </div>
+---
+### 服务内容
+
+- 源码授权（永久使用）
+- 架构设计咨询
+- 部署实施指导
+- 技术培训服务
+- 持续版本升级
+- 专属技术支持
+
+> 📞 **有意向？请联系我们获取详细的解决方案和报价**
+>
+> 官网：www.budaos.com | 邮箱：contact@budaos.com
+>
+> <div align="left">
+>   <img src="doc/img_1.png" width="160" alt="商务合作微信"/>
+> </div>
+
+---
+
+## 支持我们
+
+开源不易，如果这个项目对您有帮助，欢迎通过以下方式支持我们：
+
+### 捐赠方式
+
+| 方式 | 说明 |
+|------|------|
+| ☕ 喝杯咖啡 | 一杯咖啡，一份鼓励 |
+| 💝 任意打赏 | 量力而行，感恩有你 |
+<img src="doc/img_2.png" width="160" alt="微信收款码"/></br>
+> 捐赠时请备注「BudaOS 开源支持」，您的名字将出现在[致谢名单](SUPPORTERS.md)中（可选）。
+
+### 感谢每一份支持
+
+您的每一份捐赠都是对我们最大的鼓励，让我们能够持续维护和迭代开源项目，为社区提供更好的教育资源平台。
+
+---
+
+## 开源协议S
+
+本项目采用 [Apache License 2.0](LICENSE) 开源协议。
+
+- ✅ 可免费用于个人学习、企业内部培训
+- ✅ 可用于商业项目，打造自有品牌的教育平台
+- ✅ 支持深度二次开发，定制专属功能
+- ✅ 支持私有化部署，数据完全自主可控
+- ⚠️ 需要保留版权声明和 LICENSE 文件
+
+---
